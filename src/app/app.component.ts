@@ -42,6 +42,7 @@ export class AppComponent implements AfterViewInit {
         labels: dateWise,
         datasets: [
           {
+            
             type: 'line',
               label: "Confirmed Cases",
               title: "Secondary X Axis",
