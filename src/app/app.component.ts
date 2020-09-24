@@ -1,9 +1,7 @@
-import { Component ,OnInit,ViewChild,ElementRef, AfterViewInit} from '@angular/core';
-import { Color, Label } from 'ng2-charts';
-import { map, filter } from 'rxjs/operators'
+import { Component ,ViewChild,ElementRef, AfterViewInit} from '@angular/core';
 import * as _ from 'lodash'
 import {MOCK_DATA} from './mock_data'
-import { ChartOptions, Chart, ChartType, ChartDataSets } from 'chart.js';
+import {Chart } from 'chart.js';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
