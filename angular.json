@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "coronaGraph"
+    }
+  },
+  "defaultProject": "coronaGraph",
+  "cli": {
+    "analytics": "792c411c-e78a-4bcc-8959-85e23005cf9b"
+  }
 }
